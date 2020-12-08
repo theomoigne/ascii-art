@@ -65,7 +65,7 @@ func main() {
 	}
 }
 
-func ScanLine(num int) string {
+func ScanLine55(num int) string {
 
 	fileName, err := os.Open("standard.txt")
 	scanner := bufio.NewScanner(fileName)
@@ -90,7 +90,7 @@ func ScanLine(num int) string {
 
 }
 
-func ScanLine2(num int) string {
+func ScanLine255(num int) string {
 
 	fileName, err := os.Open("shadow.txt")
 	scanner := bufio.NewScanner(fileName)
@@ -114,7 +114,7 @@ func ScanLine2(num int) string {
 	return printLine
 }
 
-func ScanLine3(num int) string {
+func ScanLine355(num int) string {
 
 	fileName, err := os.Open("thinkertoy.txt")
 	scanner := bufio.NewScanner(fileName)
