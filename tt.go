@@ -90,6 +90,7 @@ func main() {
 
 			}
 		}
+	}
 
 		if couleur == 1 {
 			fmt.Println(Red(result))
@@ -101,7 +102,7 @@ func main() {
 			result = ""
 		}
 	}
-}
+
 
 func Color(colorString string) func(...interface{}) string {
 	sprint := func(args ...interface{}) string {
